@@ -21,43 +21,43 @@ const FAQ = () => {
   const faqs = [
     {
       id: 1,
-      q: "Is it compulsory to participate in a team?",
-      ans: ["Yes, it is compulsory to participate as a team."]
+      q: "What is the purpose of this app?",
+      ans: ["To monitor the health and well-being of students, enabling early intervention and improve communication between students, parents, teachers, and medical professionals"]
     },
     {
       id: 2,
-      q: "What is the team size?",
-      ans: ["Team can consists 3 to 4 members."]
+      q: "What types of interactive content will be included concerning the student's health?",
+      ans: ["Videos and animations: Explaining complex health concepts in an accessible way.Podcasts and audiobooks: Enabling students to learn on their own time and pace.Online quizzes and polls: Assessing understanding and promoting active participation.Collaborative activities: Encouraging students in physical activities and challenges."]
     },
     {
       id: 3,
-      q: "I'm interested in participating but I'm unable to find a team. What should I do?",
-      ans: ["You can register without a team, we will provide a team for you."]
+      q: "How do parents access their child's health information?",
+      ans: ["You'll receive a secure login to view your child's health profile, progress reports,and communication from healthcare providers."]
     },
     {
       id: 4,
-      q: "Will there be any registration fees?",
-      ans: ["No, the event is free of cost."]
+      q: "How can parents be involved?",
+      ans: ["Parent-teacher conferences: Discussing their child's progress in the program.School events and initiatives: Participating in health-related activities and workshops.Supporting healthy habits at home: Reinforcing healthy behaviors learned at school."]
     },
     {
       id: 5,
-      q: "Do I need to have a business idea ready?",
-      ans: ["No, we provide support for idea development throughout the event - just bring your enthusiasm!"]
+      q: "What if teachers observe a student experiencing health issues?",
+      ans: ["Follow school protocols for emergencies and document your observations in the app for healthcare professionals."]
     },
     {
       id: 6,
-      q: "What is the duration of the event?",
-      ans: ["The event will be conducted from 10:00 AM to 5:00 PM."]
+      q: "What are the outcomes?",
+      ans: ["Equip students with knowledge and skills to make healthy choices about their physical and mental well-being.Foster positive attitudes towards health and encourage lifelong healthy habits.Develop critical thinking skills and problem-solving abilities related to health issues.Promote communication skills through interactive learning activities.Empower students to advocate for their health and the health of others."]
     },
     {
       id: 7,
-      q: "Will ODs be provided for the event? ",
-      ans: ["Yes, ODs will be provided for the duration of the event."]
+      q: "How will this address student's health?",
+      ans: ["Normalize discussions about health and create a safe space for students to share their experiences.Integrate mindfulness practices and coping mechanisms into daily routines.Provide resources and information through medical practitioners.Train teachers and staff to recognize signs of mental health challenges and offer support."]
     },
     {
       id: 8,
-      q: "I still have some doubts regarding the event. How can I get them resolved?",
-      ans: ["Contact:", "Karan Vyas +91 9088857853","Parth Gupta +91 9205057164 "]
+      q: "What are the time and resource requirements for implementation?",
+      ans: ["The time and resource requirements will depend on the chosen integration method and the school's resources. The program offers various materials and resources to minimize teacher preparation time, but additional training and support may be needed."]
     },
   ]
 

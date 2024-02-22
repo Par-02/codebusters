@@ -35,7 +35,7 @@ const Accordian = (props) => {
               transition={{ duration: 0.2, ease: "linear" }}
               className="overflow-hidden"
             >
-              <div className="font-light text-neutral-100">
+              <div className=" text-black">
                 {props.ans.map(el=>{
                   return <div key={el}>{el}</div>
                 })}
