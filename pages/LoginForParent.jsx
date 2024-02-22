@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { router } from "next/router";
+import Image from "next/image";
+import bg1 from '../assets/bg_image1.jpg';
 
 export default function LoginForParent() {
     const [studentId, setStudentId] = useState("");
@@ -20,6 +22,7 @@ export default function LoginForParent() {
 
     return (
         <main>
+        <Image src={bg1} alt="Background Image" layout="fill" className="z-[-5] object-fill"/>
             <form className="max-w-sm mx-auto" onSubmit={handleSubmit}>
                 
                 <div className="mb-5 mt-10">

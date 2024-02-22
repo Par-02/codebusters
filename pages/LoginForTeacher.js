@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { router } from "next/router";
+import bg2 from '../assets/bg_image2.jpg';
+import Image from "next/image";
 
 export default function LoginForTeacher() {
     const [teacherId, setTeacherId] = useState("");
@@ -20,6 +22,7 @@ export default function LoginForTeacher() {
 
     return (
         <main>
+        <Image src={bg2} alt="Background Image" layout="fill" className="z-[-5] object-fill"/>
             <form className="max-w-sm mx-auto" onSubmit={handleSubmit}>
                 <div className="mb-5 mt-10">
                     <label htmlFor="text" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Teacher Id</label>

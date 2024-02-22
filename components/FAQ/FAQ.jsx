@@ -70,15 +70,15 @@ const FAQ = () => {
       {/* <Image alt="background space image" src={bg} fill className="object-cover z-[-10]" /> */}
       <div className="flex flex-col sm:flex-row gap-10 items-center w-3/4">
         <div className="w-full sm:w-1/2 flex sm:flex-col items-center gap-5 sm:gap-0">
-          <div className="w-1/2 sm:w-full">
+          {/* <div className="w-1/2 sm:w-full">
             <Image src={faq2} alt="healthFAQ" className="pointer-events-none"/>
-          </div>
-          <div className="">
+          </div> */}
+          {/* <div className="">
             <h1 className="text-2xl sm:text-3xl">
               <div>Answers To Some</div>
               <div>Commonly Asked Questions.</div>
             </h1>
-          </div>
+          </div> */}
         </div>
         <div className="w-full sm:w-1/2 h-full flex flex-col gap-2 items-start">
           {faqSection}

@@ -3,6 +3,7 @@ import styles from "@/styles/login.module.css";
 import teacher from "@/assets/teacher_img.jpg";
 import parent from "@/assets/parent_img.png";
 import Image from "next/image";
+import bg1 from '../assets/bg_image1.jpg';
 import Card from "../components/Card";
 import Router from "next/router";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -12,6 +13,7 @@ import Router from "next/router";
 export default function Login() {
   return (
     <main className="h-[100vh] w-[100vw] flex justify-center items-center">
+    <Image src={bg1} alt="Background Image" layout="fill" className="z-[-5] object-fill"/>
       <div className={styles.container}>
         <div
           href="parent-login.html"
