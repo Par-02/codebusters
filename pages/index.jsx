@@ -14,9 +14,9 @@ import {
 
 export default function Home(){
     return(
-        <main className="h-[100vh] w-full ">
-            {/* <LandingPageNavbar /> */}
-            <Menubar>
+        <main className="h-[100vh] ">
+            <LandingPageNavbar />
+            {/* <Menubar>
   <MenubarMenu>
     <MenubarTrigger>File</MenubarTrigger>
     <MenubarContent>
@@ -29,14 +29,14 @@ export default function Home(){
       <MenubarSeparator />
       <MenubarItem>Print</MenubarItem>
     </MenubarContent>
-    {/* <MenubarContent>
+    <MenubarContent>
     <MenubarItem>File</MenubarItem>
     <MenubarItem>Home</MenubarItem>
     <MenubarItem>About Us</MenubarItem>
     <MenubarItem>Login</MenubarItem>
-    </MenubarContent> */}
+    </MenubarContent>
   </MenubarMenu>
-</Menubar>
+</Menubar> */}
 
         </main>
     )
