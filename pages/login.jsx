@@ -1,22 +1,25 @@
 import react from "react";
-import { Style } from "@/styles/login.css";
+import styles from "@/styles/login.module.css";
 import teacher from '@/assets/teacher_img.jpg';
 import parent from '@/assets/parent_img.png';
+import Image from "next/image";
+import Card from "../components/Card";
+import Router from "next/router";
 export default function Login() 
 {
     return(
-        <main>
-            <div className="container">
-                <a href="parent-login.html" className="login-option">
-                    <img src={parent} alt="Parent Image" className="box-image" />
+        <main className="h-[100vh] w-[100vw] flex justify-center items-center">
+            <div className={styles.container}>
+                <div href="parent-login.html" className={styles.loginOption} onClick={()=>{Router.push('/LoginForParent')}}>
+                    <Image src={parent} alt="Parent Image" className={styles.boxImage} />
                     <div>Parent</div>
-                <   div class="login-icon">➔</div>
-                 </a>
-                <a href="teacher-login.html" className="login-option">
-                    <img src={teacher} alt="Teacher Image" className="box-image" />
+                <div class={styles.loginIcon}>➔</div>
+                 </div>
+                <div href="teacher-login.html" className={styles.loginOption} onClick={()=>{Router.push('/LoginForTeacher')}}>
+                    <Image src={teacher} alt="Teacher Image" className={styles.boxImage} />
                     <div>Teacher</div>
-                    <div class="login-icon">➔</div>
-                </a>
+                    <div class={styles.loginIcon}>➔</div>
+                </div>
             </div>
         </main>
     );

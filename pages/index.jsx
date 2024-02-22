@@ -1,6 +1,7 @@
 import React from "react";
-import LandingPageNavbar from "../components/ui/navbar";
+import LandingPageNavbar from "../components/navbar";
 import FAQ from "../components/FAQ/FAQ";
+import  Footer from "../components/Footer";
 import {
     Menubar,
     MenubarContent,
@@ -18,7 +19,7 @@ export default function Home(){
         <main className="h-[100vh] ">
             <LandingPageNavbar />
             <FAQ />
-
+            <Footer />
         </main>
     )
 }
